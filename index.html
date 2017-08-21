@@ -1,0 +1,44 @@
+<DOCTYPE html>
+
+<html>
+
+  <head>
+    
+    <title>Infrastruct 0.1 | newvec.com</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+    </style>
+    
+  </head>
+  
+  <body style="margin:0; padding:0; position:fixed; top:0; bottom:0; width: 100%">
+    <div style="position: fixed; top: 0; left: 0; z-index: 1;">
+      <p>Inventory: <span id="slot1">( )</span> <span id="slot2">( )</span> <span id="slot3">( )</span> <span id="slot4">( )</span> <span id="slot5">( )</span></p>
+      <p>FPS: <span id="fps"></span></p>
+    </div>    
+
+    <canvas id="canvas" width="720" height="405" style="border: 1px solid #000;"></canvas>
+  
+    <image id="sprites" style="display: none;" src="sprites.png">
+    
+    <button style="position:absolute; width: 48px; height: 48px; bottom: calc(24px + 48px); right: calc(50% + 24px + 12px);" onclick="player.turnWest();"></button>
+    <button style="position:absolute; width: 48px; height: 48px; bottom: calc(24px + 48px + 48px + 12px); right: calc(50% - 24px);" onclick="player.turnNorth();"></button>
+    <button style="position:absolute; width: 48px; height: 48px; bottom: 12px; right: calc(50% - 24px);" onclick="player.turnSouth();"></button>
+    <button style="position:absolute; width: 48px; height: 48px; bottom: calc(24px + 48px); left:calc(50% + 24px + 12px);" onclick="player.turnEast();"></button>
+    
+    <script src="nvbase.js"></script>
+    <script src="nvin.js"></script>
+    <script src="display.js"></script>
+    <script src="tiles.js"></script>
+    <script src="world.js"></script>
+    <script src="player.js"></script>
+    <script src="app.js"></script>
+    
+  </body>
+  
+</html>
