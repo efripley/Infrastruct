@@ -1,0 +1,26 @@
+Infrastruct Version 1.0
+
+/***** Concept *****/
+Play in a procedurally generated finite world where you harvest resources and
+build machines to create new items and blocks. Build vast infrastructure of
+water power and roads to support an ever complex system of automated crafting
+machines. Use these machines to supply your ever expanding world. This is a
+game of resource managment and construction of infrastructure to support larger
+and better cities. Support the people in your cities who operate the machines
+by building them a house with the basics (Sink, water, oven, electricity, light,
+bed and fridge). Industrial crafting machines need the support of offices so
+build offices to and employ them to get automated crafting started.
+
+Version 0.1 (Get people to spawn in the game) Todo:
+--Add other trees
+--Add logs
+--Add crafing tables (recipies determined at drop time)
+--Add ability for logs to become manual crafing tables
+--Add chest
+--Add doors
+--Add beds
+--Add windows
+--Add people (spawn when basics of life are met have a happiness depending on
+  items in house, # of windows, etc... Basics of life at this point are a bed
+  and a complete house with roof, and door)
+
